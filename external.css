@@ -211,45 +211,78 @@
 @media (max-width: 480px) and (max-height: 320px) {
   .flexContainer {
     flex-direction: column;
+    width: 50%;
   }
   .flexContainer2 {
     flex-direction: column;
+    width: 50%;
   }
   .flexContainer3 {
     flex-direction: column;
+    width: 50%;
   }
   .circleContainer {
     flex-direction: column;
+    width: 50%;
   }
   .triangleContainer {
     flex-direction: column;
+    width: 50%;
   }
   .personContainer {
     flex-direction: column;
+    width: 50%;
   }
 }
 
 /* tablet */
 @media (max-width: 1024px) and (max-height: 768px) {
   .flexContainer {
-    flex-direction: column;
+    width: 75%;
   }
   .flexContainer2 {
-    flex-direction: column;
+    width: 75%;
   }
   .flexContainer3 {
-    flex-direction: column;
+    width: 75%;
   }
   .circleContainer {
-    flex-direction: column;
+    width: 75%;
   }
   .triangleContainer {
-    flex-direction: column;
+    width: 75%;
   }
   .personContainer {
-    flex-direction: column;
+    width: 75%;
   }
 }
 
 /* Desktop */
 /* No coding needed, as it will automatically scale outside of the max-width and max-height parameters set above for mobile and tablet. */
+/* However, I coded it anyways to meet the requirements. */
+
+@media (max-width: 1680px) and (max-height: 1050px) {
+  .flexContainer {
+    width: 100%;
+  }
+  .flexContainer2 {
+    width: 100%;
+  }
+  .flexContainer3 {
+    width: 100%;
+  }
+  .circleContainer {
+    width: 100%;
+  }
+  .triangleContainer {
+    width: 100%;
+  }
+  .personContainer {
+    width: 100%;
+  }
+}
+
+.interested {
+  margin: 10px;
+  padding: 5px;
+}
